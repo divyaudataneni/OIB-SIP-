@@ -1,0 +1,102 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.bg-cont{
+    background-color: beige; 
+    display: flex;
+    flex-direction: column;   
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+   
+}
+header p {
+    margin-top: 0px;
+    font-size: 20px;
+    align-items: center;
+   
+}
+.introduction{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;   
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:60%;
+    text-align: start;
+    margin-left: 20px;
+}
+.intro-h1{
+    font-size: 25px;
+}
+.intro-p{
+    width:100%;
+    font-size: 18px;
+}
+.early-life-education{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+.life{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: flex-start;
+}
+.achievements{
+
+     padding: 50px;
+     padding-left: 100px;
+     padding-right: 100px;
+     background-color: beige;
+}
+.unordered{
+list-style-type: disc;
+gap: 20px; 
+}
+
+li{
+    margin-bottom: 10px;
+}
+footer{
+    background-color: bisque;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+.footer-p{
+    
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+.legacy{
+    background-color: rgb(249, 249, 243);
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}

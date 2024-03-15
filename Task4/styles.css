@@ -1,0 +1,38 @@
+.bg-cont{  
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+
+h2{
+    color:navy;
+}
+
+.form{
+    background-color: beige;
+    color: black;
+    padding: 20px;
+    width:300px;
+    border-radius: 10px;
+    
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.button{
+    background-color: blue;
+    padding: 10px;
+    border: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+.input{
+    font-weight: bold;
+}

@@ -1,0 +1,113 @@
+.bg-cont{
+    background-color: skyblue;
+    height:100vh;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cal-cont{
+    background-color: rgb(213, 251, 251);
+    height:500px;
+    width:403px;
+    border-radius: 10px;
+    padding: 33px;
+}
+.result-cont{
+    background-color: lightblue;
+    height:100px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    margin-right: 5px;
+    padding-left: auto;
+
+}
+.keys-cont{
+     flex-wrap: wrap;
+    
+}
+.btn{
+    border: none;
+    background-color: lightblue;
+    height: 60px;
+    width:70px;
+    border-radius: 10px;
+    margin-right: 7px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.btn1{
+    border: none;
+    background-color: lightblue;
+    height: 60px;
+    width:70px;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+
+}
+.btn2{
+    border: none;
+    background-color: lightseagreen;
+    height: 60px;
+    width:230px;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+
+}
+.btn3{
+    border: none;
+    background-color: lightseagreen;
+    height: 60px;
+    width:150px;
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+
+}
+
+.display{
+    background-color: transparent;
+    margin-bottom: 20px;
+    border: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    color:lightseagreen;
+    font-size: 25px;
+    font-weight: bold;
+}
+.result{
+    color:navy;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-right:15px;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
